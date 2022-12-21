@@ -1,24 +1,10 @@
 import "./App.css";
-import Card from "./Components/Card";
+import Events from "./Components/events";
 
 function App() {
   return (
     <div className='App'>
-      <Card
-        id='card1'
-        frontHeader='Event'
-        title='Title'
-        details='Hello world'
-      />
-
-      <Card
-        id='card2'
-        frontHeader='Event 2'
-        title='Title 2'
-        details='Hello world'
-      />
-      {/* <Card /> */}
-      {/* <Card /> */}
+      <Events />
     </div>
   );
 }
