@@ -4,7 +4,7 @@ import "./events.css";
 
 export default function Events() {
   return (
-    <div className='events'>
+    <div className='events '>
       <EventCard
         id='card1'
         frontHeader='Event'
