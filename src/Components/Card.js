@@ -1,8 +1,7 @@
 import React from "react";
 import "./Card.css";
 
-export default function Card() {
-  const card = document.querySelector("#card1");
+export default function Card(props) {
   //   const card2 = document.id("card-2");
 
   //   card1.addEventListener("click", function (e) {
@@ -10,6 +9,7 @@ export default function Card() {
   //   });
   // console.log(card);
   let click = () => {
+    const card = document.querySelector("#" + props.id);
     // console.log(event.currentTarget.id);
     console.log(card);
     card.classList.toggle("is-flipped");
@@ -19,18 +19,18 @@ export default function Card() {
 
   return (
     <div className='card'>
-      <div className='card__inner' id='card1' onClick={click}>
+      <div className='card__inner' id={props.id} onClick={click}>
         <div className='card__face card__face--front card-'>
-          <h2>Hi</h2>
+          <h2>{props.frontHeader}</h2>
         </div>
         <div className='card__face card__face--back'>
           <div className='card__content'>
             <div className='card__header'>
               <img src='pp.jpg' alt='' className='pp' />
-              <h2>Hi</h2>
+              <h2>{props.title}</h2>
             </div>
             <div className='card__body'>
-              <p>lorem ipsum</p>
+              <p>{props.details}</p>
             </div>
           </div>
         </div>
