@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Footer.css";
 import logo from "./techweek.png";
-function Home() {
+function Footer() {
   return (
     <div classNameName="App">
      
@@ -126,4 +126,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Footer;
