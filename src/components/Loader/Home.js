@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "./BACKGROUND.css";
 export default function Home() {
   return (
     <React.Fragment>
