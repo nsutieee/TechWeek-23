@@ -2,6 +2,7 @@ import Plat from "./Plat";
 import Gold from "./Gold";
 import Silver from "./Silver";
 import './Sponsors.css';
+
 function Sponsors() {
     return (
         <section class="sponsors">

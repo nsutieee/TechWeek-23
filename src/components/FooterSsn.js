@@ -4,6 +4,7 @@ import '../styles/Footer.css'
 
 function FooterSsn() {
     return (
+        <footer>
         <div className="Footer">
             
         <div className="Footer_Main">
@@ -121,7 +122,7 @@ function FooterSsn() {
           </div>
         </div>
 
-        </div>
+        </div></footer>
     )
 }
 

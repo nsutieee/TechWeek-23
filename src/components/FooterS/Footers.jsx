@@ -1,35 +1,29 @@
-import React from 'react'
-// import "./Footer.css";
-import logo from "../../images/TechWeekLogo.png";
+import "./Footers.css"
 
-function Footer() {
-  return (
-    <div classNameName="App">
-     
-      <div className="footer-sec">
-        <div className="main">
-          <div className="logo row">
-            <div className="footer-header">
-              <img class="logo" src={logo} />
-            </div>
-            <div className="logo-des">
-              <p>
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour.
-              </p>
+import im from "../../images/TechWeekLogo.png"
 
-              <a href="#" className="btn-know">
-                Know More
-              </a>
+const Footers = () => {
+    return (
+        <footer>
+            <div className="row" id="footer">
+        <div className="col">
+          <div className="logos_wrap">
+            <div>
+          <img
+            src={im}
+            className="logo_nsut"
+            ></img>
             </div>
+            </div>
+          <div>
+          "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
           </div>
-
-          <div className="office row">
-            <div className="footer-header">
-              <h3>Contacts</h3>
-            </div>
-            <div className="office-des">
+        </div>
+        <div className="col brd">
+          <h3 className="footerhead">
+            Address{" "}
+         </h3>
+      <div className="office-des">
               <section>
                 <span>
                   <i class="fa fa-calendar"></i>
@@ -62,10 +56,12 @@ function Footer() {
                   </a>
                 </span>
               </section>
-            </div>
-          </div>
+         </div>
 
-          <div className="link row">
+        </div>
+
+        <div className="col brd">
+        <div className="link row">
             <div className="footer-header">
               <h3>Resources</h3>
             </div>
@@ -79,8 +75,10 @@ function Footer() {
               </a>
             </div>
           </div>
-
-          <div className="newsletter row">
+        </div>
+        
+        <div className="col brd">
+        <div className="newsletter row">
             <div className="footer-header">
               <h3>Community Social Connection</h3>
             </div>
@@ -102,29 +100,19 @@ function Footer() {
               </div>
             </div>
           </div>
+
+
+
         </div>
        
-        <div className="bottom">
-          <span class="border-shape"></span>
-          <div class="bottom_content">
-            <section>
-              <a href="#">Home</a>
-              <a href="#">About us</a>
-              <a href="#">Our Team</a>
-              <a href="#">Sponsers</a>
-
-              <a href="#">Contact Us</a>
-            </section>
-          </div>
-          <div class="copyright">
-            Copyright © 2021 websitename - All rights reserved
-          </div>
-        </div>
       </div>
-    </div>
+      <hr></hr>
 
- 
-  )
+    <a href={""} target={"_blank"} style={{textDecoration:"none",color:"white"}}>
+     <p className="copyright">Code of Conduct</p>  </a> 
+      <p className="copyright">Techweek © 2023 - All Rights Reserved</p>
+        </footer>
+    )
 }
 
-export default Footer;
+export default Footers;
