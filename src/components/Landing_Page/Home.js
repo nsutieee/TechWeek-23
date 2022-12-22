@@ -1,6 +1,6 @@
 import React from 'react'
-import " ./intro.css"
-import "EVENT.png"
+import " ./intro.css";
+import logos from "./EVENT.png";
 
 export default function Home() {
   return (
@@ -39,7 +39,7 @@ export default function Home() {
   <span class="fa fa-star checked"></span>
   <span class="fa fa-star checked"></span>
   <div class="pe"><p>A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you.</p></div>
-  <img  class="circular_image" src="assets/EVENT.png"/>
+  <img  class="circular_image" src={logos}/>
   <div class="name"><h4>Alan Martí</h4></div>
   
   <div class="pr"><h6>Meta Inc.</h6></div>
@@ -55,7 +55,7 @@ export default function Home() {
       <div class="pe">
           <p>A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you.</p>
       </div>
-      <img  class="circular_image" src="assets/Event.png"/>
+      <img  class="circular_image" src={logos}/>
       <div class="name"><h4>Alan Martí</h4></div>
       <div class="pr"><h6>Meta Inc.</h6></div>
       
@@ -71,7 +71,7 @@ export default function Home() {
       <span class="fa fa-star checked"></span>
       <div class="pe"><p>A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you.</p></div>
 
-      <img  class="circular_image" src="assets/EVENT.png"/>
+      <img  class="circular_image" src={logos}/>
       <div class="name"><h4>Alan Martí</h4></div>
       <div class="pr"><h6>Meta Inc.</h6></div>
       
@@ -83,7 +83,7 @@ export default function Home() {
           <span class="fa fa-star checked"></span>
           <span class="fa fa-star checked"></span>
           <div class="pe"><p>A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you.</p></div>
-          <img  class="circular_image" src="assets/EVENT.png"/>
+          <img  class="circular_image" src={logos}/>
           <div class="name"><h4>Alan Martí</h4></div>
           <div class="pr"><h6>Meta Inc.</h6></div>
       
