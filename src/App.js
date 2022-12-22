@@ -2,7 +2,6 @@
 
 import './App.css';
 import { Routes, Route, useLocation } from 'react-router-dom';
-import NavBar from './components/NavBar';
 import LoadingScreen from './components/screens/LoadingScreen'
 import HomeScreen from './components/screens/HomeScreen';
 import Footer from './components/Footer/Footer';
