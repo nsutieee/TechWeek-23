@@ -21,37 +21,153 @@ body{
     background-color: var(--div-background-color);
 }
 
+
+
+
+
+
 .Navigation_Bar{
-    background-color: var(--div-background-color); width: 100%;
-    position: absolute; top: 10px; right: 70px;
+    background-color: var(--div-background2-color); width: 100%;
+    position: absolute; top: 0px; 
     display: inline-flex;
 }
-
 .Navigation_Bar_Left{
-   margin-left: 2rem;
+  margin-left: 1rem; position: absolute; left: 0;
 }
 .Navigation_Bar_Left img{
-    height: 60px; width: 180px;
+  position: absolute; left: 0;
+    height: 40px; width: 120px; 
 }
 
 .Navigation_Bar_Right{
-    position: absolute; right: 0px;
+    position: absolute; right: 1rem;
     display: inline-flex;
     gap: 2rem;
-    padding-top: 15px;
+    padding-top: 2rem;
 }
-
 .Navigation_Bar_Right p{
     font-family: var(--div-headingtext-font);
     font-size: 1.3rem;
     font-weight: 600;
     transition: all 400ms ease;
-    color: var(--div-background2-color);
-   
+    color: var(--div-background2-color);  
 }
-
 .Navigation_Bar p:hover{
     transform: scale(1.1);
     color: aqua;
 }
+
+
+
+
+
+
+.Footer{
+  display: flex; flex-direction: column; gap: 1rem;
+    position: absolute; bottom: 0;
+    width: 100%; height: 300px;
+}
+.Footer_Main{
+   display: grid;
+   gap: 50px;
+   grid-template-columns: repeat(4, 1fr);
+}
+.footer-header{
+  font-family: var(--div-headingtext-font);
+}
+.Footer_Column_1 img{
+  height: 100px; width: 250px; 
+}
+.Footer_Column_1_Description{
+  font-family: var(--div-contenttext-font);
+  color: var(--div-background2-color);
+  padding-left: 20px;
+  font-size: 0.8rem;
+}
+.Footer_Column_1_Button{
+    margin-left: 60px;
+    font-family: var(--div-headingtext-font);
+    text-decoration: none;
+    background-color: #fff;
+    padding: 10px;
+    position: relative;
+    top: 30px;
+    background-color: transparent;
+    border: 1px solid #0ae0e5;
+    color: #0ae0e5;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+.Footer_Column_2 i{
+  color: var(--div-primary-color);
+}
+.Footer_Column_2 span{
+  font-family: var(--div-contenttext-font);
+  color: var(--div-background2-color);
+}
+.Footer_Column_3 .link-des{
+  font-family: var(--div-contenttext-font);
+}
+.Footer_Column_3 .link-des a:hover{
+  color: var(--div-secondary-color);
+}
+.Footer_Column_4 a:hover{
+  background-color: var(--div-secondary-color);
+}
+.Footer_Column_2, .Footer_Column_3, .Footer_Column_4{
+  padding-top: 30px;
+}
+.border-shape {
+  background: var(--div-primary-color) none repeat scroll 0 0;
+  color: #fff;
+  display: block;
+  height: 3px;
+  left: 0;
+  margin: 20px auto;
+  position: relative;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 80px;
+}
+.border-shape::before {
+  background: var(--div-primary-color) none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 1px;
+  left: 80px;
+  margin: 0 auto;
+  position: absolute;
+  text-align: center;
+  top: 1px;
+  width: 100px;
+}
+.border-shape::after {
+  background: var(--div-primary-color) 0 0;
+  bottom: 0;
+  content: "";
+  height: 1px;
+  margin: 0 auto;
+  position: absolute;
+  right: 80px;
+  text-align: center;
+  top: 1px;
+  width: 100px;
+}
+.Footer_Bottom_Content a {
+  font-family: var(--div-contenttext-font);
+  margin: 0 20px;
+  color: var(--div-primary-color);
+  transition: 0.3s ease;
+}
+.Footer_Bottom_Content a:hover {
+  color: var(--div-secondary-color);
+}
+.Footer_Bottom_Content section {
+  padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: Center;
+}
+
 

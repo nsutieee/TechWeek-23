@@ -1,5 +1,5 @@
 import React from 'react'
-import " ./intro.css";
+import "./intro.css";
 import logos from "./EVENT.png";
 
 export default function Home() {
