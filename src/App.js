@@ -1,8 +1,10 @@
 
+
 import './App.css';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import LoadingScreen from './components/screens/LoadingScreen'
 import HomeScreen from './components/screens/HomeScreen';
+
 
 function App() {
   const location = useLocation()
@@ -13,6 +15,7 @@ function App() {
       <Route path="/home" element={<HomeScreen/>} />
      </Routes>
     </>
+
   );
 }
 
