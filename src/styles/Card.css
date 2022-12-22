@@ -1,8 +1,11 @@
 :root {
-    --primary: #FFCE00;
-    --secondary: #FE4880;
-    --dark: #212121;
-    --light: #F3F3F3;
+    --primary:  #0ae0e5;
+    --secondary: #09abfc;
+    --dark: #000000;
+    --light: #ffffff;
+
+    --div-headingtext-font: 'Orbitron', sans-serif;
+    --div-contenttext-font: 'Gugi', sans-serif;
 }
 
 * {
@@ -10,23 +13,18 @@
     padding: 0;
 }
 
-body {
-    font-family: montserrat, sans-serif;
-    width: 100%;
-    min-height: 100vh;
-}
 
 .card {
     margin: 100px auto 0;
-    width: 400px;
-    height: 600px;
-    perspective: 1000px;
+    width: 250px;
+    height: 350px;
+    
 }
 
 .card__inner {
     width: 100%;
     height: 100%;
-    transition: transform 1s;
+    transition:  0.6s;
     transform-style: preserve-3d;
     cursor: pointer;
     position: relative;
@@ -56,6 +54,7 @@ body {
 }
 
 .card__face--front h2 {
+    font-family: var(--div-headingtext-font);
     color: #FFF;
     font-size: 32px;
 }
@@ -72,7 +71,7 @@ body {
 
 .card__header {
     position: relative;
-    padding: 30px 30px 40px;
+    padding: 20px 30px 40px;
 }
 
 .card__header:after {
@@ -90,9 +89,9 @@ body {
 
 .pp {
     display: block;
-    width: 128px;
-    height: 128px;
-    margin: 0 auto 30px;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 20px;
     border-radius: 50%;
     background-color: #FFF;
     border: 5px solid #FFF;
@@ -100,9 +99,10 @@ body {
 }
 
 .card__header h2 {
+    font-family: var(--div-headingtext-font);
     color: #FFF;
-    font-size: 32px;
-    font-weight: 900;
+    font-size: 1.3rem;
+    font-weight: 700;
     text-transform: uppercase;
     text-align: center;
 }
@@ -119,7 +119,8 @@ body {
 }
 
 .card__body p {
+    font-family: var(--div-contenttext-font);
     color: var(--dark);
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.4;
 }
