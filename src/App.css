@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gugi&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
@@ -22,25 +23,25 @@ body{
 }
 
 .Navigation_Bar{
-    background-color: var(--div-background-color); width: 90vw;
+    background-color: var(--div-background-color); width: 100%;
     position: absolute; top: 10px; right: 70px;
     display: inline-flex;
-    gap: 2rem;
 }
 
+.Navigation_Bar_Left{
+   margin-left: 2rem;
+}
 .Navigation_Bar_Left img{
     height: 60px; width: 180px;
 }
 
 .Navigation_Bar_Right{
+    position: absolute; right: 0px;
     display: inline-flex;
     gap: 2rem;
-    width: 70%;
     padding-top: 15px;
 }
-.Navigation_Bar_Right:first-child{
-    margin-left: 6rem;
-}
+
 .Navigation_Bar_Right p{
     font-family: var(--div-headingtext-font);
     font-size: 1.3rem;
@@ -54,4 +55,3 @@ body{
     transform: scale(1.1);
     color: aqua;
 }
-
