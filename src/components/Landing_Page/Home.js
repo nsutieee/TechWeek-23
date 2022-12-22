@@ -1,4 +1,6 @@
 import React from 'react'
+import " ./intro.css"
+import "EVENT.png"
 
 export default function Home() {
   return (
