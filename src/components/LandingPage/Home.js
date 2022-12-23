@@ -1,6 +1,7 @@
 import React from 'react'
 import FlipperCountdown from '../FlipperCountdown'
 import './Home.css'
+import HeaderGraphic from './HeaderGraphic'
 
 function Home() {
   return (
@@ -10,8 +11,10 @@ function Home() {
                   <h1>Tech Week '23</h1>
                   <h2>-By IEEE NSUT</h2>
               </div>
+              <div className='Header_Graphic'><HeaderGraphic/></div>
+              <div className="Main_CountDown"> <FlipperCountdown/></div>
           </div>
-          <FlipperCountdown/>
+         
     </section>
   )
 }
