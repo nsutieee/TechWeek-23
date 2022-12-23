@@ -7,6 +7,11 @@ class FlipperCountdown extends Component {
     return (
       <>
         <FlipCountdown
+        size='medium'
+        dayTitle='Days'
+        hourTitle='Hours'
+        minuteTitle='Minutes'
+        secondTitle='Seconds'
         hideYear
         hideMonth
           endAt={'2023-02-1 00:00:00'} // Date/Time

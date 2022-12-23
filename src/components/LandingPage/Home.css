@@ -8,28 +8,51 @@
     --div-contenttext-font: 'Gugi', sans-serif;
 }
 
-
-.Master_Container{
+.Header_Ssn{
     margin-top: 7rem;
     width: 90%; margin-left: 5%; margin-right: 5%;
 }
+.Master_Container{
+   display: flex; flex-direction: column; gap: 2rem;
+}
 .Main_Header{
-    width: 50%;
+    width: 100%;
     color: var(--div-primary-color);
-    font-family: var(--div-contenttext-font);
 }
 .Main_Header h1{
-    font-size: 4rem;
+    font-family: var(--div-contenttext-font);
+    width: 100%; text-align: center;
+    font-size: 6rem;
     text-shadow: 4px 4px 2px rgba(255, 255, 255, 1);
 }
 .Main_Header h2{
-    font-size: 1rem;
+    font-family: var(--div-headingtext-font);
+    width: 100%; text-align: center;
+    font-size: 2rem; font-weight: 300;
+    text-shadow: 2px 2px 1px var(--div-primary-color);
     color: var(--div-background2-color);
 }
 .Main_CountDown{
     margin-top: 5rem;
-    font-family: var(--div-contenttext-font);
+    color: var(--div-background2-color);
 }
-.Header_Graphic{
-background: none;
+.Graphic_Container{
+    margin-top: 3rem;
+    width: 100%;
+    display: inline-flex;
+}
+
+.About_TchWk{
+    width: 100%;   /* This tag runs opposite u increase width of this , size of image increases*/
+}
+.About_TchWk h3{
+    margin-top: 1rem;
+    font-size: 2.5rem; text-align: center;
+    font-family: var(--div-headingtext-font);
+}
+.About_TchWk p{
+    margin-top: 2rem;
+    color: var(--div-background2-color);
+    font-size: 1.2rem;
+    font-family: var(--div-contenttext-font);
 }
