@@ -21,10 +21,6 @@ export default function EventCard(props) {
       <div className='card__inner' id={props.id}>
         <div className='card__face card__face--front card-'>
           <h2>{props.frontHeader}</h2>
-          <div>
-            <button className='btn-14'>Register here</button>
-            <button className='btn-14'>More info</button>
-          </div>
         </div>
         <div className='card__face card__face--back'>
           <div className='card__content'>

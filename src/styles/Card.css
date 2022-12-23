@@ -17,7 +17,7 @@
 .card {
     margin: 40px;
     width: 17em;
-    height: 17em;
+    height: 20em;
     display: flex;
     justify-content: center;
 }
@@ -67,6 +67,7 @@
     font-family: var(--div-headingtext-font);
     color: #FFF;
     font-size: 32px;
+    margin-top: 50%; 
 }
 
 .btn-14 {

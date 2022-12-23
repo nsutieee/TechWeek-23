@@ -5,13 +5,13 @@
     grid-template-columns: 4fr 4fr 4fr;
 }
 
-@media (max-width: 1270px) {
+@media (max-width: 1000px) {
     .events {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (max-width: 828px) {
+@media (max-width: 700px) {
     .events {
         grid-template-columns: repeat(1, 1fr);
     }
