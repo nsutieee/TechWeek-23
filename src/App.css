@@ -161,3 +161,22 @@ body{
 } */
 
 
+.newsletter-des i{
+   color: var(--div-primary-color);
+}
+.office-des i{
+  color: var(--div-primary-color);
+}
+.office-des span{
+  font-family: var(--div-contenttext-font);
+}
+.Column_1_Des{
+  font-family: var(--div-contenttext-font);
+}
+.link-des{
+  font-family: var(--div-contenttext-font);
+}
+.footer-header{
+  font-family: var(--div-headingtext-font);
+  line-height: 25px;
+}
