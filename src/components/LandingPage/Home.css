@@ -1,4 +1,4 @@
-:root{
+:root {
     --div-primary-color: #0ae0e5;
     --div-secondary-color: #09abfc;
     --div-background-color: black;
@@ -8,58 +8,103 @@
     --div-contenttext-font: 'Gugi', sans-serif;
 }
 
-.Header_Ssn{
+.Header_Ssn {
     margin-top: 7rem;
-    width: 90%; margin-left: 5%; margin-right: 5%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
-.Master_Container{
-   display: flex; flex-direction: column; gap: 2rem;
+
+.Master_Container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
-.Main_Header{
+
+.Main_Header {
     width: 100%;
     color: var(--div-primary-color);
 }
-.Main_Header h1{
+
+.Main_Header h1 {
     font-family: var(--div-contenttext-font);
-    width: 100%; text-align: center;
+    width: 100%;
+    text-align: center;
     font-size: 6rem;
     text-shadow: 4px 4px 2px rgba(255, 255, 255, 1);
 }
-.Main_Header h2{
+
+.Main_Header h2 {
     font-family: var(--div-headingtext-font);
-    width: 100%; text-align: center;
-    font-size: 2rem; font-weight: 300;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
     text-shadow: 2px 2px 1px var(--div-primary-color);
     color: var(--div-background2-color);
 }
-.Main_CountDown{
+
+.Main_CountDown {
     margin-top: 5rem;
     color: var(--div-background2-color);
 }
-.Graphic_Container{
+
+.Graphic_Container {
     margin-top: 20rem;
     width: 100%;
-    display: inline-flex;
+    /* display: inline-flex; */
+    display: grid;
+    grid-template-columns: 0fr 6fr 6fr;
 }
 
-.About_TchWk{
-    width: 70%;   /* This tag runs opposite u increase width of this , size of image increases*/
+@media (max-width: 1000px) {
+    .Graphic_Container {
+        display: block;
+
+    }
+
+    .About_TchWk {
+        display: block;
+        margin: auto;
+    }
+
+    .About_TchWk p {
+        text-align: center;
+    }
+
+    .About_TchWk h3 {
+        text-align: center;
+    }
 }
-.About_TchWk h3{
+
+
+
+.Header_grahpic {
+    display: inline;
+}
+
+.About_TchWk {
+    width: 70%;
+    /* This tag runs opposite u increase width of this , size of image increases*/
+
+}
+
+.About_TchWk h3 {
     margin-top: 1rem;
-    font-size: 2.5rem; 
+    font-size: 2.5rem;
     font-family: var(--div-headingtext-font);
     color: var(--div-primary-color);
 }
 
-.right{
+.right {
     text-align: right;
 }
-.left{
+
+.left {
     text-align: left;
 }
 
-.About_TchWk p{
+.About_TchWk p {
     margin-top: 2rem;
     color: var(--div-background2-color);
     font-size: 1.2rem;
