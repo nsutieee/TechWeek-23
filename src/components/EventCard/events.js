@@ -1,16 +1,20 @@
 import React from "react";
 import EventCard from "./eventCard";
 import "../../styles/events.css";
+import { Fade } from "react-reveal";
 
 export default function Events() {
   return (
-    <section className="eventStart">
-       <p class="event-heading">
-            OUR EVENTS
-        </p>
-        <div className="events">
-      {/* <div className='events'> */}
-      <EventCard
+    <section className='eventStart'>
+      <p class='event-heading'>OUR EVENTS</p>
+      <div className='events'>
+        <Fade up>
+          <div className='comingSoon'>
+            <h1>Coming Soon...</h1>
+          </div>
+        </Fade>
+
+        {/* <EventCard
         id='card1'
         frontHeader='Event 1'
         title='Title 1'
@@ -45,8 +49,7 @@ export default function Events() {
         frontHeader='Event 6'
         title='Title 6'
         details='Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, harum tenetur? Dolor amet similique,'
-      />
-      {/* </div> */}
+      /> */}
       </div>
     </section>
   );
