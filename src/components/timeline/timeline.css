@@ -1,0 +1,19 @@
+
+  .vertical-timeline--two-columns
+  .vertical-timeline-element.vertical-timeline-element--right
+  .vertical-timeline-element-content
+  .vertical-timeline-element-date,
+.vertical-timeline--two-columns
+  .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left)
+  .vertical-timeline-element-content
+  .vertical-timeline-element-date {
+  color: #0ae0e5;
+  font-weight: bold;
+}
+
+.timeline-heading{
+    text-align: center;
+    color: #0ae0e5;
+    font-size: 3vw;
+    padding:16px;
+}

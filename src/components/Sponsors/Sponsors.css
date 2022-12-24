@@ -16,17 +16,17 @@
     box-sizing: border-box;
 }
 .sponsors{
-    background-color: black;
+    margin-top: 5rem;
 }
 .sponsors p{
-    color: white;
+    color: #0ae0e5;
     font-family: 'Orbitron', sans-serif;
     font-weight:bolder;
 }
 .sponsor-heading{
     text-align: center;
-    color: white;
-    font-size: 6vw;
+    color: #0ae0e5;
+    font-size: 3rem;
     padding:16px;
 }
 .column{

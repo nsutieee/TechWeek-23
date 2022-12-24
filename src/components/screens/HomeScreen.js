@@ -1,23 +1,24 @@
 import React from 'react'
 import Events from '../EventCard/events'
-import FooterSsn from '../FooterSsn'
-
-import NavBar from '../NavBar'
 import Sponsors from '../Sponsors/Sponsors'
-import Timeline from '../Timeline/Timeline'
+import { Fade } from 'react-reveal'
 import Header from '../Header/Header'
 import Footers from '../FooterS/Footers'
 import Home from '../LandingPage/Home'
+import Timeline from '../timeline/timeline'
+import PastSponsor from '../pastSponsors/pastSponsors'
 
 
 function HomeScreen() {
   return (
     <>
+    {/* <particleBackground/> */}
     <Home/>
     <Header/>
-    <Events/>
-    {/* <Timeline/> */}
-    <Sponsors/>
+    <Fade up><Events/></Fade>
+    <Fade up><Sponsors/></Fade>
+    <Fade up><PastSponsor/></Fade>    
+    <Timeline/>
     <Footers/>
     </>
   )

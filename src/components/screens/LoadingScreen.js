@@ -20,6 +20,7 @@ function LoadingScreen() {
                width: "100vw",
                height: "100vh",
                display: "flex",
+               backgroundColor: "black",
                overflow: "hidden", }}
 
                initial={{ opacity: 0 }}

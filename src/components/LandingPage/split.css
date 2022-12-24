@@ -1,0 +1,25 @@
+.logoSplit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.logoSplitSmall{
+    display: none;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 600px) {
+    .logoSplitSmall{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .logoSplit{
+        display: none;
+        flex-direction: row;
+        justify-content: center;
+    }
+}

@@ -1,8 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+
+.eventStart{
+   margin-top: 5rem;
+}
+
 .events {
     display: grid;
     justify-items: center;
     padding: 1% 6%;
     grid-template-columns: 4fr 4fr 4fr;
+}
+
+.event-heading{
+    text-align: center;
+    color: #0ae0e5;
+    font-size: 3rem;
+    padding:16px;
 }
 
 @media (max-width: 1000px) {

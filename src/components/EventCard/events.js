@@ -4,7 +4,11 @@ import "../../styles/events.css";
 
 export default function Events() {
   return (
-    <section className='events'>
+    <section className="eventStart">
+       <p class="event-heading">
+            OUR EVENTS
+        </p>
+        <div className="events">
       {/* <div className='events'> */}
       <EventCard
         id='card1'
@@ -43,6 +47,7 @@ export default function Events() {
         details='Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, harum tenetur? Dolor amet similique,'
       />
       {/* </div> */}
+      </div>
     </section>
   );
 }

@@ -37,19 +37,28 @@
     color: var(--div-background2-color);
 }
 .Graphic_Container{
-    margin-top: 3rem;
+    margin-top: 20rem;
     width: 100%;
     display: inline-flex;
 }
 
 .About_TchWk{
-    width: 100%;   /* This tag runs opposite u increase width of this , size of image increases*/
+    width: 70%;   /* This tag runs opposite u increase width of this , size of image increases*/
 }
 .About_TchWk h3{
     margin-top: 1rem;
-    font-size: 2.5rem; text-align: center;
+    font-size: 2.5rem; 
     font-family: var(--div-headingtext-font);
+    color: var(--div-primary-color);
 }
+
+.right{
+    text-align: right;
+}
+.left{
+    text-align: left;
+}
+
 .About_TchWk p{
     margin-top: 2rem;
     color: var(--div-background2-color);
