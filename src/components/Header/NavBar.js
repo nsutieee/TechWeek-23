@@ -1,5 +1,5 @@
-import React from 'react'
-import tcwklgo from '../images/TechWeekLogo.png'
+import '../../App.css'
+import tcwklgo from '../../images/TechWeekLogo.png'
 
 function NavBar() {
     return (

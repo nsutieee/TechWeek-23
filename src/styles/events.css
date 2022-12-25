@@ -1,5 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+:root{
+    --div-primary-color: #0ae0e5;
+    --div-secondary-color: #0aacfc;
+    --div-background-color: black;
+    --div-background2-color: #ffffff;
 
+    --div-headingtext-font: 'Orbitron', sans-serif;
+    --div-contenttext-font: 'Gugi', sans-serif;
+}
 
 .eventStart{
    margin-top: 5rem;
@@ -13,8 +20,9 @@
 }
 
 .event-heading{
+    font-family: var(--div-headingtext-font);
     text-align: center;
-    color: #0ae0e5;
+    color: var(--div-primary-color);
     font-size: 3rem;
     padding:16px;
 }

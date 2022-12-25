@@ -26,22 +26,21 @@ body{
     display: inline-flex;
 }
 .Navigation_Bar_Left{
-  margin-left: 1rem; position: absolute; left: 0;
+  margin-left: 0px; position: absolute; margin-top: 0.4rem;
 }
 .Navigation_Bar_Left img{
-  position: absolute; left: 0;
-    height: 40px; width: 120px; 
+    height: 90px; width: 180px; 
 }
 
 .Navigation_Bar_Right{
-    position: absolute; right: 1rem;
+    position: absolute; right: 3rem;
     display: inline-flex;
     gap: 2rem;
     padding-top: 2rem;
 }
 .Navigation_Bar_Right p{
     font-family: var(--div-headingtext-font);
-    font-size: 1.3rem;
+    font-size: 2rem;
     font-weight: 600;
     transition: all 400ms ease;
     color: var(--div-background2-color);  
@@ -51,6 +50,20 @@ body{
     color: aqua;
 }
 
+
+@media (max-width: 1650px){
+  .Navigation_Bar_Right{
+    right: 2rem;
+  }
+}
+@media (max-width: 1550px){
+  .Navigation_Bar_Left img{
+    height: 75px; width: 150px;
+  }
+  .Navigation_Bar_Right p{
+    font-size: 1.5rem;
+  }
+}
 /* 
 .Footer{
   display: flex; flex-direction: column; gap: 1rem;

@@ -7,6 +7,7 @@ import Footers from '../FooterS/Footers'
 import Home from '../LandingPage/Home'
 import Timeline from '../timeline/timeline'
 import PastSponsor from '../pastSponsors/pastSponsors'
+//import Gallery from '../Gallery'
 
 
 function HomeScreen() {
@@ -16,6 +17,7 @@ function HomeScreen() {
     <Home/>
     <Header/>
     <Fade up><Events/></Fade>
+    {/* <Gallery/> */}
     <Fade up><Sponsors/></Fade>
     <Fade up><PastSponsor/></Fade>    
     <Timeline/>
