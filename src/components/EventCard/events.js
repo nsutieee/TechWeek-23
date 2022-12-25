@@ -2,6 +2,7 @@ import React from "react";
 import EventCard from "./eventCard";
 import "../../styles/events.css";
 import { Fade } from "react-reveal";
+import TubelightText from "../TubeLightText/TubelightText";
 
 export default function Events() {
   return (
@@ -10,7 +11,7 @@ export default function Events() {
       <div className='events'>
         <Fade up>
           <div className='comingSoon'>
-            <h1>Coming Soon...</h1>
+            <h1><TubelightText text= 'Announcing Soon...' /></h1>
           </div>
         </Fade>
 

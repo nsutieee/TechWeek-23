@@ -14,8 +14,10 @@
   .vertical-timeline--two-columns
   .vertical-timeline-element.vertical-timeline-element--right
   .vertical-timeline-element-content
-  .vertical-timeline-element-date,
-.vertical-timeline--two-columns
+  .vertical-timeline-element-date{
+    font-family: var(--div-contenttext-font);
+  }
+  .vertical-timeline--two-columns
   .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left)
   .vertical-timeline-element-content
   .vertical-timeline-element-date {

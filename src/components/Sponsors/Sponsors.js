@@ -5,7 +5,7 @@ import './Sponsors.css';
 
 function Sponsors() {
     return (
-        <section class="sponsors">
+         <section class="sponsors">
 
         <p class="sponsor-heading">
             OUR SPONSORS
