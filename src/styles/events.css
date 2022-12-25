@@ -32,6 +32,8 @@
     font-weight: bolder;
 }
 
+/* Comment out afte r event cards are added */
+/* 
 @media (max-width: 1000px) {
     .events {
         grid-template-columns: repeat(2, 1fr);
@@ -42,7 +44,7 @@
     .events {
         grid-template-columns: repeat(1, 1fr);
     }
-}
+} */
 
 .comingSoon {
     font-family: 'Orbitron', sans-serif;
