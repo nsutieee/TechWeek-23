@@ -5,7 +5,9 @@ import { ResponsiveMasonry } from 'react-responsive-masonry'
 class Gallery extends React.Component{
     render() {
         return (
-            <ResponsiveMasonry></ResponsiveMasonry>
+            <ResponsiveMasonry>
+                
+            </ResponsiveMasonry>
         )
     }
 }

@@ -22,6 +22,9 @@
     .logoSplit img{
         height: 370px;
     }
+    .logoSplit{
+        margin-left: 4.5rem;
+    }
 }
 @media(max-width: 1620px){
     .logoSplit img{
@@ -39,6 +42,9 @@
     }
 }
 @media(max-width: 1400px){
+    .logoSplit{
+        margin-left: 4rem;
+    }
     .logoSplit img{
         height: 300px;
     }
@@ -55,31 +61,20 @@
 }
 @media(max-width: 960px){
     .logoSplit{
-        margin-left: 4rem;
+        margin-left: 2rem;
     }
     .logoSplit img{
         height: 180px;
     }
 }
 @media(max-width: 900px){
-    .logoSplit{
-        margin-left: 8rem;
-    }
     .logoSplit img{
         height: 140px;
     }
 }
 
-@media only screen and (max-width: 600px) {
-    .logoSplitSmall{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .logoSplit{
-        display: none;
-        flex-direction: row;
-        justify-content: center;
+@media(max-width: 700px){
+    .logoSplit img{
+        height: 150px;
     }
 }

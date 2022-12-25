@@ -1,12 +1,13 @@
 import React from 'react'
 import Events from '../EventCard/events'
-import Sponsors from '../Sponsors/Sponsors'
+//import Sponsors from '../Sponsors/Sponsors'
 import { Fade } from 'react-reveal'
 import Header from '../Header/Header'
 import Footers from '../FooterS/Footers'
 import Home from '../LandingPage/Home'
 import Timeline from '../timeline/timeline'
 import PastSponsor from '../pastSponsors/pastSponsors'
+import AnnouncingSponsors from '../Sponsors/AnnouncingSponsors'
 //import Gallery from '../Gallery'
 
 
@@ -18,9 +19,12 @@ function HomeScreen() {
     <Header/>
     <Fade up><Events/></Fade>
     {/* <Gallery/> */}
-    <Fade up><Sponsors/></Fade>
-    <Fade up><PastSponsor/></Fade>    
+   
     <Timeline/>
+
+    <Fade up><AnnouncingSponsors/></Fade>
+    <Fade up><PastSponsor/></Fade>   
+     
     <Footers/>
     </>
   )
