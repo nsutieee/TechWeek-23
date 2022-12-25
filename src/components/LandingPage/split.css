@@ -1,16 +1,16 @@
 .logoSplit{
     display: inline-flex;
     flex-direction: row;
+    width: 90%;
     justify-content: center;
 }
 
 .logoSplit img{
-    background-color: aquamarine;
     height: 400px;
 }
 
 .Main_Header_MidSsn{
-    
+    height: 400px;
 }
 
 .logoSplitSmall{
@@ -19,7 +19,55 @@
 }
 
 @media(max-width: 1750px){
-    
+    .logoSplit img{
+        height: 370px;
+    }
+}
+@media(max-width: 1620px){
+    .logoSplit img{
+        height: 355px;
+    }
+}
+@media(max-width: 1560px){
+    .logoSplit img{
+        height: 340px;
+    }
+}
+@media(max-width: 1480px){
+    .logoSplit img{
+        height: 320px;
+    }
+}
+@media(max-width: 1400px){
+    .logoSplit img{
+        height: 300px;
+    }
+}
+@media(max-width: 1315px){
+    .logoSplit img{
+        height: 260px;
+    }
+}
+@media(max-width: 1140px){
+    .logoSplit img{
+        height: 220px;
+    }
+}
+@media(max-width: 960px){
+    .logoSplit{
+        margin-left: 4rem;
+    }
+    .logoSplit img{
+        height: 180px;
+    }
+}
+@media(max-width: 900px){
+    .logoSplit{
+        margin-left: 8rem;
+    }
+    .logoSplit img{
+        height: 140px;
+    }
 }
 
 @media only screen and (max-width: 600px) {

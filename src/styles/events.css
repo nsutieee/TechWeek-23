@@ -4,29 +4,51 @@
     --div-background-color: black;
     --div-background2-color: #ffffff;
 
+<<<<<<< HEAD
+    --div-headingtext-font: 'Orbitron', sans-serif;
+    --div-contenttext-font: 'Gugi', sans-serif;
+}
+=======
+:root {
+    --div-primary-color: #0ae0e5;
+    --div-secondary-color: #09abfc;
+    --div-background-color: black;
+    --div-background2-color: #ffffff;
+>>>>>>> 407c11ebf79fae11cc6ec5ca8e25762c2f3747c2
+
     --div-headingtext-font: 'Orbitron', sans-serif;
     --div-contenttext-font: 'Gugi', sans-serif;
 }
 
-.eventStart{
-   margin-top: 5rem;
+
+.eventStart {
+    margin-top: 5rem;
 }
 
 .events {
     display: grid;
     justify-items: center;
     padding: 1% 6%;
-    grid-template-columns: 4fr 4fr 4fr;
+    /* grid-template-columns: 4fr 4fr 4fr; */
+    /* Comment out after event cards are added */
 }
 
+<<<<<<< HEAD
 .event-heading{
     font-family: var(--div-headingtext-font);
+=======
+.event-heading {
+>>>>>>> 407c11ebf79fae11cc6ec5ca8e25762c2f3747c2
     text-align: center;
     color: var(--div-primary-color);
     font-size: 3rem;
-    padding:16px;
+    padding: 16px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bolder;
 }
 
+/* Comment out afte r event cards are added */
+/* 
 @media (max-width: 1000px) {
     .events {
         grid-template-columns: repeat(2, 1fr);
@@ -37,4 +59,10 @@
     .events {
         grid-template-columns: repeat(1, 1fr);
     }
+} */
+
+.comingSoon {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bolder;
+    color: white;
 }
