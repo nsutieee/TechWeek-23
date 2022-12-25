@@ -1,3 +1,13 @@
+:root{
+    --div-primary-color: #0ae0e5;
+    --div-secondary-color: #0aacfc;
+    --div-background-color: black;
+    --div-background2-color: #ffffff;
+
+    --div-headingtext-font: 'Orbitron', sans-serif;
+    --div-contenttext-font: 'Gugi', sans-serif;
+}
+
 .logos_wrap{
     display: flex;
     align-items: center;
@@ -216,3 +226,24 @@ hr{
     margin-bottom: 5px;
 }
 
+.footer-icons{
+    display: inline-flex; gap: 1rem;
+}
+.footer-icons i{
+    color: var(--div-background2-color);
+}
+.footer-icons a{
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.link-des a{
+    text-decoration: none;
+    color: var(--div-background2-color);
+}
+.footer-header{
+    color: var(--div-primary-color);
+}
+.contacts{
+    text-decoration: none;
+    color: var(--div-background2-color);
+}
