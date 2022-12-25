@@ -6,10 +6,7 @@ const object3={src:Polygon,href:"https://polygon.technology"};
 const object4={src:Celo,href:"https://celo.org/"};
 const object5={src:Polygon,href:"https://polygon.technology"};
 const object6={src:Celo,href:"https://celo.org/"};
-const object7={src:Polygon,href:"https://polygon.technology"};
-const object8={src:Celo,href:"https://celo.org/"};
-const object9={src:Polygon,href:"https://polygon.technology"};
-const goldarray=[object1,object2,object3,object4,object5,object6,object7,object8,object9];
+const goldarray=[object1,object2,object3,object4,object5,object6];
     const listitems=goldarray.map((index)=>
         <div class="logo-box griditem">
             <a href={index.href} target="_blank" rel="noreferrer">
