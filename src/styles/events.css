@@ -4,17 +4,14 @@
     --div-background-color: black;
     --div-background2-color: #ffffff;
 
-<<<<<<< HEAD
     --div-headingtext-font: 'Orbitron', sans-serif;
     --div-contenttext-font: 'Gugi', sans-serif;
 }
-=======
 :root {
     --div-primary-color: #0ae0e5;
     --div-secondary-color: #09abfc;
     --div-background-color: black;
     --div-background2-color: #ffffff;
->>>>>>> 407c11ebf79fae11cc6ec5ca8e25762c2f3747c2
 
     --div-headingtext-font: 'Orbitron', sans-serif;
     --div-contenttext-font: 'Gugi', sans-serif;
@@ -33,12 +30,8 @@
     /* Comment out after event cards are added */
 }
 
-<<<<<<< HEAD
 .event-heading{
     font-family: var(--div-headingtext-font);
-=======
-.event-heading {
->>>>>>> 407c11ebf79fae11cc6ec5ca8e25762c2f3747c2
     text-align: center;
     color: var(--div-primary-color);
     font-size: 3rem;
