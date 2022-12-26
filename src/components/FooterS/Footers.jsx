@@ -61,7 +61,7 @@ const Footers = () => {
         </div>
 
         <div className="col brd">
-          <div className="link row">
+          <div className="link">
             <div className="footer-header">
               <h3>Resources</h3>
             </div>
@@ -78,7 +78,7 @@ const Footers = () => {
         </div>
 
         <div className="col brd">
-          <div className="newsletter row">
+          <div className="newsletter">
             <div className="footer-header">
               <h3>Community Social Connection</h3>
             </div>
