@@ -43,8 +43,6 @@ function PastSponsor() {
               <img src={line2} height="100" alt="" />
             </div>
 
-            <div class="slide"></div>
-
             <div class="slide">
               <img src={line3} height="100" alt="" />
             </div>
@@ -52,7 +50,6 @@ function PastSponsor() {
             <div class="slide">
               <img src={line4} height="100" alt="" />
             </div>
-            <div class="slide"></div>
             
           </div>
         </div>
