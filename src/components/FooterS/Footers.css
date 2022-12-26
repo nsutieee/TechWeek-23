@@ -54,7 +54,9 @@ footer .logo{
     max-width: 20vw;
     max-height: 20vh;
 }
-
+.office-des span {
+    padding-right:0.5em;    
+}
 .row{
     width: 85%;
     margin: auto;
@@ -239,6 +241,7 @@ hr{
 .link-des a{
     text-decoration: none;
     color: var(--div-background2-color);
+    display: block;
 }
 .footer-header{
     color: var(--div-primary-color);
