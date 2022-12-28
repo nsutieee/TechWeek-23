@@ -6,13 +6,15 @@ import './NewHeader.css'
 const Ul = styled.ul`
   
    list-style: none;
+   gap: 1rem;
    display: flex;
    flex-flow: row nowrap;
   
   li{
+    gap: 1rem;
     padding: 18px 10px;
     font-family: 'Orbitron', sans-serif;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #fff;
     transition: all 300ms ease;
   }
