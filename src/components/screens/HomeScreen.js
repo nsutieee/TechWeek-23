@@ -8,7 +8,8 @@ import Home from '../LandingPage/Home'
 import Timeline from '../timeline/timeline'
 import PastSponsor from '../pastSponsors/pastSponsors'
 import AnnouncingSponsors from '../Sponsors/AnnouncingSponsors'
-import HamburgerMenu from '../Header/HamburgerMenu'
+//import HamburgerMenu from '../Header/HamburgerMenu'
+import NewHeader from '../../NewHeaderFolder/NewHeader'
 //import Gallery from '../Gallery'
 
 
@@ -17,7 +18,7 @@ function HomeScreen() {
     <>
     {/* <particleBackground/> */}
     <Home/>
-    <Header/> <HamburgerMenu/>
+    <NewHeader/>
     <Fade up><Events/></Fade>
     {/* <Gallery/> */}
    
