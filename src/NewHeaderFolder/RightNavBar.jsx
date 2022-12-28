@@ -15,13 +15,25 @@ const Ul = styled.ul`
     gap: 1rem;
     padding: 18px 10px;
     font-family: 'Orbitron', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #fff;
     transition: all 300ms ease;
   }
   li:hover{
     color: #0ae0e5;
     transform: scale(1.1);
+  }
+  
+  @media(max-width: 1230px){
+    li{
+      font-size: 1.5rem;
+    }
+  }
+  @media(max-width: 915px){
+    li{
+      gap: 0.7rem;
+      font-size: 1rem;
+    }
   }
 
   @media(max-width: 768px){

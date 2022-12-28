@@ -9,13 +9,29 @@ const MainLogo = styled.div`
   
   img{
     height: 70px;
-    width: 160px;
+    width: 70px;
+  }
+
+  @media(max-width: 1230px){
+    img{
+      height: 50px; width: 50px;
+    }
+  }
+  @media(max-width: 915px){
+    img{
+      height: 40px; width: 40px;
+    }
+  }
+  @media(max-width: 768px){
+    img{
+      height: 65px; width: 65px;
+    }
   }
 `
 
 
 const Nav = styled.nav`
-  position: absolute; top: 0;
+  position: absolute; top: 30px; 
   width: 100%;
   height: 65px;
   padding: 0 20px;

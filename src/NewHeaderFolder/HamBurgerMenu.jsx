@@ -5,6 +5,8 @@ import RightNavBar from './RightNavBar'
 import './NewHeader.css'
 
 const StyledBurger = styled.div`
+   margin-top: 2rem; margin-right: 1rem;
+   transform: ${({open}) => open ? 'scale(1)' : 'scale(2)'};
    width: 2rem;
    height: 2rem;
    position: fixed;
@@ -25,7 +27,7 @@ const StyledBurger = styled.div`
     height: 0.3rem;
     background-color: ${({ open }) => open ? '#0ae0e5' : '#0ae0e5'};
     transform-origin: 1px;
-    transition: all 0.3s linear;
+    transition: all 0.5s linear;
     
     &:nth-child(1) {
       transform: ${({ open }) => open ? 'rotate(45deg)' : 'rotate(0)'};
