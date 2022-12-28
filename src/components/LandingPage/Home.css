@@ -109,4 +109,5 @@
     color: var(--div-background2-color);
     font-size: 1.2rem;
     font-family: var(--div-contenttext-font);
+    text-align:justify;
 }

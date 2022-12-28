@@ -27,7 +27,7 @@ function Home() {
           </Fade>
           <Fade right>
             <div className='About_TchWk left'>
-              <h3>About Tech Week</h3>
+              <h3>About<br/>TechWeek</h3>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum
                 minus voluptates expedita debitis voluptas! Quam accusamus,
