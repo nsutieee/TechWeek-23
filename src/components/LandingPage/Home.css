@@ -24,6 +24,8 @@
 .Main_Header {
     width: 100%;
     color: var(--div-primary-color);
+    display: flex;
+    justify-content: center;
 }
 
 .Main_Header h1 {
@@ -38,6 +40,7 @@
     font-family: var(--div-headingtext-font);
     width: 100%;
     text-align: center;
+
     font-size: 2rem;
     font-weight: 300;
     text-shadow: 2px 2px 1px var(--div-primary-color);
@@ -109,5 +112,5 @@
     color: var(--div-background2-color);
     font-size: 1.2rem;
     font-family: var(--div-contenttext-font);
-    text-align:justify;
+    text-align: justify;
 }
