@@ -11,6 +11,7 @@ import AnnouncingSponsors from "../Sponsors/AnnouncingSponsors";
 import NewHeader from "../../NewHeaderFolder/NewHeader";
 //import Gallery from '../Gallery'
 import Faq from "../faq/faq";
+import Team from "../Team/Team";
 
 function HomeScreen() {
   return (
@@ -32,6 +33,9 @@ function HomeScreen() {
         <PastSponsor />
       </Fade>
       <Faq />
+      <Fade up>
+        <Team />
+      </Fade>
       <Footers />
     </>
   );
