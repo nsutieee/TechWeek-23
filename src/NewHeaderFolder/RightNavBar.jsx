@@ -11,6 +11,7 @@ const Ul = styled.ul`
    flex-flow: row nowrap;
   
   li{
+    margin-left: 20px;
     gap: 1rem;
     padding: 18px 10px;
     font-family: 'Orbitron', sans-serif;
@@ -26,7 +27,7 @@ const Ul = styled.ul`
   @media(max-width: 768px){
     z-index: 10;
     flex-flow: column nowrap;
-    background-color: black; opacity: 1;
+    background-color: rgba(255, 255, 255, 0.4);
     position: fixed; top: 0; right: 0;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
     height: 100vh;
