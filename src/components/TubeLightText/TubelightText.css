@@ -19,7 +19,7 @@
     line-height: 1em;
     outline:none;
     animation: animate 5s linear infinite;
-    font-family: var(--div-contenttext-font);
+    /* font-family: var(--div-contenttext-font); */
 }
 @keyframes animate{
     0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
