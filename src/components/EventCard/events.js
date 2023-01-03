@@ -6,7 +6,7 @@ import TubelightText from "../TubeLightText/TubelightText";
 
 export default function Events() {
   return (
-    <section className='eventStart'>
+    <section className='eventStart' id="events">
       <p class='event-heading'>OUR EVENTS</p>
       <div className='events'>
         <Fade up>

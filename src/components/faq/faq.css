@@ -11,18 +11,18 @@
 }
 
 .faq {
-    margin: 10rem 2rem;
+    
 }
 
 .header {
     text-align: center;
     color: var(--div-primary-color);
     font-size: 3rem;
-    padding: 16px;
+
     font-family: 'Orbitron', sans-serif;
     font-weight: bolder;
 }
 
 .faq-inner {
-    margin: 2rem 5%;
+ 
 }

@@ -4,11 +4,18 @@
     width: 90%;
     justify-content: center;
 }
-
-.logoSplit img{
-    height: 400px;
+.flex_wrap_hor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
-
+.logoSplit img{
+    height: 100px;
+}
+.lottie_anime{
+    height: 500px;
+}
 .Main_Header_MidSsn{
     height: 400px;
 }
@@ -16,65 +23,4 @@
 .logoSplitSmall{
     display: none;
     flex-direction: row;
-}
-
-@media(max-width: 1750px){
-    .logoSplit img{
-        height: 370px;
-    }
-    .logoSplit{
-        margin-left: 4.5rem;
-    }
-}
-@media(max-width: 1620px){
-    .logoSplit img{
-        height: 355px;
-    }
-}
-@media(max-width: 1560px){
-    .logoSplit img{
-        height: 340px;
-    }
-}
-@media(max-width: 1480px){
-    .logoSplit img{
-        height: 320px;
-    }
-}
-@media(max-width: 1400px){
-    .logoSplit{
-        margin-left: 4rem;
-    }
-    .logoSplit img{
-        height: 300px;
-    }
-}
-@media(max-width: 1315px){
-    .logoSplit img{
-        height: 260px;
-    }
-}
-@media(max-width: 1140px){
-    .logoSplit img{
-        height: 220px;
-    }
-}
-@media(max-width: 960px){
-    .logoSplit{
-        margin-left: 2rem;
-    }
-    .logoSplit img{
-        height: 180px;
-    }
-}
-@media(max-width: 900px){
-    .logoSplit img{
-        height: 140px;
-    }
-}
-
-@media(max-width: 700px){
-    .logoSplit img{
-        height: 150px;
-    }
 }

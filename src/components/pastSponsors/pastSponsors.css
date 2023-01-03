@@ -17,7 +17,7 @@
     text-align: center;
     color: #0ae0e5;
     font-size: 3rem;
-    padding:16px;
+    /* padding:16px; */
 }
 
 .slider {
@@ -27,7 +27,7 @@
 	overflow: hidden;
 	position: relative;
 	
-    margin-top: 60px;
+    /* margin-top: 60px; */
 }
 
 .slider::before, .slider::after {
@@ -58,6 +58,6 @@
 
 .slider .slide {
 	height: 100px;
-	width: 250px;
+
 }
 

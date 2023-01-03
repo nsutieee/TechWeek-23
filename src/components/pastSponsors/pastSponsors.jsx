@@ -19,11 +19,11 @@ function PastSponsor() {
   const onlyWidth = useWindowWidth();
   return (
     <section className="pastSponsors">
-      <p class="sponsor-heading">
+      <p class="event-heading">
         PAST SPONSORS
       </p>
-      <div className="sponsor" id="sponsor">
-        <div className="theme__header" style={{ paddingTop: "80px" }}>
+      <div className="sponsor" >
+        <div className="theme__header" style={{ paddingTop: "30px" }}>
           <div
             className="header_line"
             style={{ width: (50 < onlyWidth / 2 - 200) ? onlyWidth / 2 - 200 : 50 }}

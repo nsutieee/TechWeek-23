@@ -1,57 +1,101 @@
 import React from 'react'
-import styled from 'styled-components'
-import HamBurgerMenu from './HamBurgerMenu'
-import RightNavBar from './RightNavBar'
-import './NewHeader.css'
-import logo1 from '../images/TechWeekLogo.png'
-
-const MainLogo = styled.div`
-  
-  img{
-    height: 70px;
-    width: 70px;
-  }
-
-  @media(max-width: 1230px){
-    img{
-      height: 50px; width: 50px;
-    }
-  }
-  @media(max-width: 915px){
-    img{
-      height: 40px; width: 40px;
-    }
-  }
-  @media(max-width: 768px){
-    img{
-      height: 65px; width: 65px;
-    }
-  }
-`
-
-
-const Nav = styled.nav`
-  position: absolute; top: 30px; 
-  width: 100%;
-  height: 65px;
-  padding: 0 20px;
-  display: flex;
-  justify-content: space-between;
-  color: #f1f1f1;
-
-  .logo{
-    padding: 15px 0;
-  }
-`
-
+import logo from "../images/twpng.png"
+import {
+  useWindowSize,
+  useWindowWidth,
+  useWindowHeight,
+} from '@react-hook/window-size'
+import "./NewHeader.css"
 function NewHeader() {
+  const onlyWidth = useWindowWidth()
   return (
-    <Nav>
-        <MainLogo>
-            <img src={logo1} alt='' />
-        </MainLogo>
-        <HamBurgerMenu/>
-    </Nav>
+      <div className="nav_wrap">
+
+  
+    <div className="navbar">
+        <div className="navbar__left">
+            <img src={logo} className="navbar__logo"/>
+        </div>
+        <div className="navbar__right">
+            {/* <div>
+              <a href="#home" style={{textDecoration:"none"}} className="nav_elements">
+
+              Home
+              </a>
+              </div> */}
+              <div>
+              <a href="#about" style={{textDecoration:"none"}} className="nav_elements">
+
+              About
+              </a>
+              </div>
+              {onlyWidth>=678&&
+           <div>
+           <a href="#theme" style={{textDecoration:"none"}} className="nav_elements">
+
+           Themes
+           </a>
+           </div>
+}
+{onlyWidth>=678&&
+           <div>
+           <a href="#sponsor" style={{textDecoration:"none"}} className="nav_elements">
+
+           Sponsors
+           </a>
+           </div>
+}      <div>
+              <a href="#timeline" style={{textDecoration:"none"}} className="nav_elements">
+
+              Timeline
+              </a>
+              </div>
+            
+              {onlyWidth>=678&&
+            <div>
+            <a href="#team" style={{textDecoration:"none"}} className="nav_elements">
+
+            Team
+            </a>
+            </div>
+}
+
+{onlyWidth>=678&&
+           <div>
+           <a href="#faq" style={{textDecoration:"none"}} className="nav_elements">
+
+           FAQs
+           </a>
+           </div>
+}
+{/* {onlyWidth>=678&&
+           <div>
+           <a href="#Judges" style={{textDecoration:"none"}} className="nav_elements">
+
+           Judges
+           </a>
+           </div>
+} */}
+
+{/* {onlyWidth>=678&&
+            <div>
+            <a href="#team" style={{textDecoration:"none"}} className="nav_elements">
+
+            Team
+            </a>
+            </div>
+} */}
+{onlyWidth>=678&&
+            <div>
+            <a href="#footer" style={{textDecoration:"none"}} className="nav_elements">
+
+            Contact Us
+            </a>
+            </div>
+}
+        </div>
+    </div>
+    </div>
   )
 }
 
