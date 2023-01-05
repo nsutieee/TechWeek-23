@@ -73,6 +73,6 @@
   pointer-events: none;
   font-size: 1.2rem;
   line-height: 1.3;
-  color: var(--div-background2-color);
+  color: var(--div-primary-color);
   font-family: var(--div-contenttext-font);
 }

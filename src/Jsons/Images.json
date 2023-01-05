@@ -10,15 +10,7 @@
                     "job": "Designer"
                 }
             },
-            {
-                "id": "wallpaper 2",
-                "src": "img/diversity/d2.jpg",
-                "user": {
-                    "src": "img/profile/2.png",
-                    "name": "Farbod",
-                    "job": "Scientist"
-                }
-            },
+            
             {
                 "id": "wallpaper 3",
                 "src": "img/diversity/d3.jpg",
@@ -63,15 +55,7 @@
                     "name": "Jennifer",
                     "job": "Front-End"
                 }
-            },            {
-                "id": "wallpaper 2",
-                "src": "img/passion/p2.jpg",
-                "user": {
-                    "src": "img/profile/2.png",
-                    "name": "Farbod",
-                    "job": "Scientist"
-                }
-            },
+            }, 
             {
                 "id": "wallpaper 3",
                 "src": "img/passion/p3.jpg",
@@ -110,15 +94,7 @@
                     "job": "Designer"
                 }
             },
-            {
-                "id": "wallpaper 2",
-                "src": "img/diversity/d2.jpg",
-                "user": {
-                    "src": "img/profile/2.png",
-                    "name": "Farbod",
-                    "job": "Scientist"
-                }
-            },
+            
             {
                 "id": "wallpaper 3",
                 "src": "img/diversity/d3.jpg",

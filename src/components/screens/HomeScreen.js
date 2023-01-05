@@ -71,7 +71,7 @@ function HomeScreen() {
         <Events />
       </Fade>
 
-      <Timeline />
+      {/* <Timeline /> */}
 
       <Fade up>
         <AnnouncingSponsors />
@@ -83,9 +83,9 @@ function HomeScreen() {
         <Team />
       </Fade>
       <div
-        className="flex justify-content-center"
+        className='flex justify-content-center'
         style={{ marginTop: "160px", padding: "50px" }}
-        id="gallery"
+        id='gallery'
       >
         <ContainerCard>
           <div
@@ -93,7 +93,7 @@ function HomeScreen() {
           >
             <h1>Galleria</h1>
             <Dropdown
-              title="All Images"
+              title='All Images'
               items={ddItems}
               liftingDdTextUp={takeDdTitle}
             />
