@@ -46,6 +46,15 @@ const Nav = () => {
         </li>
       </ul>
       <div className={`flex ${styles["navbar-buttons"]}`}>
+        {/* <Button theme='transparent'>
+          <a
+            href='https://forms.gle/2p6W1qJLsfPWopTy8'
+            target={"_blank"}
+            style={{ color: "white" }}
+          >
+            Deliver a session
+          </a>
+        </Button> */}
         <Button theme='transparent'>
           <a
             href='https://forms.gle/2p6W1qJLsfPWopTy8'
