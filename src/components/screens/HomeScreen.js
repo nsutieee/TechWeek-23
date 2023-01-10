@@ -21,6 +21,7 @@ import AboutIeee from "../about/aboutIeee";
 import Gall from "../../Gall";
 import images from "../../Jsons/Images.json";
 import Footer from "../footer/footer";
+import NewFaq from "../faq/NewFaq";
 
 const ddItems = [
   {
@@ -102,7 +103,7 @@ function HomeScreen() {
         </ContainerCard>
       </div>
 
-      <Faq />
+      <NewFaq />
 
       <Footer />
     </>
