@@ -103,7 +103,7 @@ function HomeScreen() {
         </ContainerCard>
       </div>
 
-      <NewFaq />
+      <Faq />
 
       <Footer />
     </>
