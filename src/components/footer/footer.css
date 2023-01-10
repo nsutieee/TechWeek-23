@@ -1,23 +1,28 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'poppins', sans-serif;
     box-sizing: border-box;
 }
-.logos_wrap{
+
+.logos_wrap {
     display: flex;
     align-items: center;
+    margin-top: 0px;
 }
-.insu{
+
+.insu {
     font-size: 20px;
- font-weight: bolder;   
+    font-weight: bolder;
 
 }
-.logo_nsut{
+
+.logo_nsut {
     max-width: 15vw;
     max-height: 15vh;
 }
-.discord_wrap{
+
+.discord_wrap {
     display: flex;
     align-items: center;
     color: white;
@@ -25,17 +30,18 @@
     font-size: 20px;
     font-weight: bold;
     justify-content: center;
-    background-color: 
-    #26333f;
+    background-color:
+        #26333f;
     padding: 10px;
     cursor: pointer;
 }
-.discord_txt{
+
+.discord_txt {
     margin-left: 10px
 }
 
-footer{
-margin-top: 120px;
+footer {
+    margin-top: 120px;
     width: 100%;
     bottom: 0;
     color: #fff;
@@ -46,12 +52,13 @@ margin-top: 120px;
     line-height: 20px;
 }
 
-footer .logo{
+footer .logo {
     max-width: 20vw;
     max-height: 20vh;
+
 }
 
-.row{
+.row {
     width: 85%;
     margin: auto;
     display: flex;
@@ -60,45 +67,47 @@ footer .logo{
     justify-content: space-between;
 }
 
-.col h3{
+.col h3 {
     width: fit-content;
     margin-bottom: 40px;
     position: relative;
 }
 
-.col{
+.col {
     text-align: left;
     flex-basis: 25%;
     padding: 10px;
 }
 
-.col:nth-child(2), .col:nth-child(3){
+.col:nth-child(2),
+.col:nth-child(3) {
     flex-basis: 15%;
 }
 
-.email{
+.email {
     width: fit-content;
     /* border-bottom: 1px solid #ccc; */
     margin: 20px 0;
 }
-.email a{
 
-  color: #fff;
-    
+.email a {
+
+    color: #fff;
+
 }
 
-ul li{
+ul li {
     list-style: none;
     margin-bottom: 12px;
 }
 
-ul li a{
+ul li a {
     text-decoration: none;
     color: #fff;
 }
 
-.btn{
-    border: 5px ;
+.btn {
+    border: 5px;
     /* margin-top: 50px; */
     background: none;
     padding: 10px 20px;
@@ -115,11 +124,11 @@ ul li a{
 
 
 
-.btn1{
+.btn1 {
     color: #fff;
 }
 
-.btn1:hover{
+.btn1:hover {
     color: rgb(51, 48, 48);
     background-color: #eeebf3;
     border: 1px solid #27333f;
@@ -137,29 +146,29 @@ ul li a{
     color: #2d0b00;
 } */
 
-btn1::before{
+btn1::before {
     top: 0;
     border-radius: 0 0 50% 50%;
     height: 180%;
-    
+
 }
 
-.col p{
+.col p {
     font-size: 16px;
 }
 
-btn1::before:hover{
-    height: 180% ;
+btn1::before:hover {
+    height: 180%;
 }
 
-hr{
+hr {
     width: 90%;
     border: 0;
     border-bottom: 1px solid #ccc;
     margin: 20px auto;
 }
 
-.underline{
+.underline {
     width: 100%;
     height: 5px;
     background: #767676;
@@ -171,7 +180,7 @@ hr{
 
 }
 
-.underline span{
+.underline span {
     width: 15px;
     height: 100%;
     background: #fff;
@@ -183,31 +192,33 @@ hr{
 }
 
 @keyframes moving {
-    0%{
+    0% {
         left: -20px;
     }
-    
-    100%{
+
+    100% {
         left: 100%;
     }
 }
 
 @media (max-width: 700px) {
-    footer{
+    footer {
         bottom: unset;
     }
-    .col{
+
+    .col {
         text-align: left;
         flex-basis: 100%;
-        
+
     }
-    
-    .col:nth-child(2), .col:nth-child(3){
+
+    .col:nth-child(2),
+    .col:nth-child(3) {
         flex-basis: 100%;
     }
 }
 
-.spacing{
+.spacing {
     height: 20vh;
 }
 
@@ -215,9 +226,10 @@ hr{
     border-left: 1px solid #ccc;
     padding-left: 10px ;
 } */
-.copyright{
+.copyright {
     text-align: center;
 }
-.footerhead{
+
+.footerhead {
     margin-bottom: 5px;
 }

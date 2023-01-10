@@ -46,15 +46,15 @@ const Nav = () => {
         </li>
       </ul>
       <div className={`flex ${styles["navbar-buttons"]}`}>
-        {/* <Button theme='transparent'>
+        <Button theme='transparent'>
           <a
-            href='https://forms.gle/2p6W1qJLsfPWopTy8'
+            href='https://forms.gle/EZRw7Bz8Nw4b3dY49'
             target={"_blank"}
             style={{ color: "white" }}
           >
             Deliver a session
           </a>
-        </Button> */}
+        </Button>
         <Button theme='transparent'>
           <a
             href='https://forms.gle/2p6W1qJLsfPWopTy8'

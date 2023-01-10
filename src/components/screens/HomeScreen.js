@@ -104,6 +104,7 @@ function HomeScreen() {
       </div>
 
       <Faq />
+      {/* <NewFaq /> */}
 
       <Footer />
     </>
