@@ -68,6 +68,7 @@ export default function Team() {
           title='PR Head'
           ig={"https://www.instagram.com/wiz_anshul/"}
           ln={"https://www.linkedin.com/in/anshuly777/"}
+          // className={"hidden"}
         />
         <Honecombcell
           img={logo8}
@@ -86,6 +87,7 @@ export default function Team() {
           title='Tech Head'
           ig={"https://www.instagram.com/ayushtenguria/"}
           ln={"https://www.linkedin.com/in/ayush-sharma-800853120/"}
+          // className={"hidden"}
         />
         <Honecombcell
           img={logo1}

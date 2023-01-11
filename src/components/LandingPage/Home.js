@@ -46,35 +46,37 @@ function Home() {
   }, []);
 
   return (
-    <div className="home" id="home">
-      <div className="social_icons">
-        <div className="upper_div"></div>
-        <a href="https://www.instagram.com/_hacknsut_/" target={"_blank"}>
-          <AiFillInstagram className="social_icon" />
+    <div className='home' id='home'>
+      <div className='social_icons'>
+        <div className='upper_div'></div>
+        <a href='https://www.instagram.com/_hacknsut_/' target={"_blank"}>
+          <AiFillInstagram className='social_icon' />
         </a>
         <a
-          href="https://www.linkedin.com/in/hack-nsut-a86aa2182//"
+          href='https://www.linkedin.com/in/hack-nsut-a86aa2182//'
           target={"_blank"}
         >
-          <AiFillLinkedin className="social_icon" />
+          <AiFillLinkedin className='social_icon' />
         </a>
-        <a href="https://twitter.com/hacknsut" target={"_blank"}>
-          <AiOutlineTwitter className="social_icon" />
+        <a href='https://twitter.com/hacknsut' target={"_blank"}>
+          <AiOutlineTwitter className='social_icon' />
         </a>
-        <a href="https://facebook.com/hacknsut" target={"_blank"}>
-          <AiOutlineFacebook className="social_icon" />
+        <a href='https://facebook.com/hacknsut' target={"_blank"}>
+          <AiOutlineFacebook className='social_icon' />
         </a>
-        <a href="mailto:ieeehacknsut@gmail.com" target={"_blank"}>
-          <AiOutlineMail className="social_icon" />
+        <a href='mailto:ieeehacknsut@gmail.com' target={"_blank"}>
+          <AiOutlineMail className='social_icon' />
         </a>
-        <div className="upper_div"></div>
+        <div className='upper_div'></div>
       </div>
-      <div className="outer_section">
-        <div className="left_section">
+      <div className='outer_section'>
+        <div className='left_section'>
           <Fade left>
-            <div className="home__txt_1">Welcome to</div>
+            <div className='home__txt_1'>Welcome to</div>
           </Fade>
-          <div className="home__txt_2">Tech<span className="cyancolor">Week</span></div>
+          <div className='home__txt_2'>
+            Tech<span className='cyancolor'>Week</span>
+          </div>
           <Typewriter
             options={{
               strings: ["innovation", "develop", "code"],
@@ -84,7 +86,7 @@ function Home() {
             }}
           />
           <Fade bottom>
-            <div className="home__txt_3">organised by IEEE NSUT</div>
+            <div className='home__txt_3'>organised by IEEE NSUT</div>
           </Fade>
           <Countdown date={"2022-03-25"} />
 
@@ -95,17 +97,17 @@ function Home() {
     
             ></div> */}
           <a
-            href="https://discord.gg/sA2VYB2f"
+            href='https://discord.gg/KX52TkVMsW'
             target={"_blank"}
-            className="discord_wrap"
+            className='discord_wrap'
             style={{ marginTop: "10px" }}
           >
-            <FaDiscord className="discord_icon" />
-            <div className="discord_txt">Join Discord</div>
+            <FaDiscord className='discord_icon' />
+            <div className='discord_txt'>Join Discord</div>
           </a>
         </div>
         <Fade up>
-          <div className="right_section">
+          <div className='right_section'>
             <Lottie
               options={defaultOptions}
               height={onlyWidth >= 678 ? 600 : onlyWidth >= 678 ? 500 : 300}
@@ -113,8 +115,8 @@ function Home() {
           </div>
         </Fade>
       </div>
-      <div className="right_abs">
-        UNLEASH <span className="cyan">THE</span> LIMITS
+      <div className='right_abs'>
+        UNLEASH <span className='cyan'>THE</span> LIMITS
       </div>
     </div>
   );

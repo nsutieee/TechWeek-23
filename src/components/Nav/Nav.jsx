@@ -48,7 +48,7 @@ const Nav = () => {
       <div className={`flex ${styles["navbar-buttons"]}`}>
         <Button theme='transparent'>
           <a
-            href='https://forms.gle/EZRw7Bz8Nw4b3dY49'
+            href='https://forms.gle/q1chPNLPHAeFhVY99'
             target={"_blank"}
             style={{ color: "white" }}
           >
@@ -57,7 +57,7 @@ const Nav = () => {
         </Button>
         <Button theme='transparent'>
           <a
-            href='https://forms.gle/2p6W1qJLsfPWopTy8'
+            href='https://bit.ly/communityPartner'
             target={"_blank"}
             style={{ color: "white" }}
           >
@@ -66,7 +66,7 @@ const Nav = () => {
         </Button>
         <Button theme='matrix'>
           <a
-            href='https://forms.gle/8ap5cah5mgb7rXxf9'
+            href='https://forms.gle/XWa6phMgNug75kPq7'
             target={"_blank"}
             style={{ color: "black" }}
           >

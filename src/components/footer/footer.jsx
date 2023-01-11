@@ -98,7 +98,7 @@ function Footer() {
             style={{ height: 44 + "px", width: 312 + "px" }}
           ></div> */}
           <a
-            href='https://discord.gg/PtmKS5ke'
+            href='https://discord.gg/KX52TkVMsW'
             target={"_blank"}
             className='discord_wrap'
           >
@@ -110,7 +110,7 @@ function Footer() {
           </div>
           <div style={{ marginTop: "30px" }}>
             <div className='insu'>Interested in sponsoring us?</div>
-            <a href='https://forms.gle/8ap5cah5mgb7rXxf9' target={"_blank"}>
+            <a href='https://forms.gle/XWa6phMgNug75kPq7' target={"_blank"}>
               <button
                 className='btn btn1 brochure'
                 style={{ marginTop: "20px" }}
