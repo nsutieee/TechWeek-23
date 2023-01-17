@@ -1,6 +1,7 @@
 import Plat from "./Plat";
 import Gold from "./Gold";
-import Silver from "./Silver";
+import Title from "./Title";
+import Associate from "./Associate";
 import './Sponsors.css';
 
 function Sponsors() {
@@ -11,9 +12,10 @@ function Sponsors() {
             OUR SPONSORS
         </p>
         <div class="column">
+            <Title/>
+            <Associate/>
             <Plat/>
             <Gold/>
-            <Silver/>
         </div>
         </section>
     );

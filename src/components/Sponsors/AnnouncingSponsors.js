@@ -17,16 +17,35 @@ import p9 from "./partners/ieeeadgitm.png"
 import p10 from "./partners/ieeeciet.png"
 import p11 from "./partners/ieeeiiitd.png"
 import p12 from "./partners/bvpieee.png"
+import p13 from "./metvy.png"
+import p14 from "./youngskilled.png"
+import p15 from "./mentro.svg"
+import p16 from "./metaschool.jpeg"
+import p17 from "./social3.svg"
+import p18 from "./streamyard.png"
+import p19 from "./stickeryou.webp"
 
 function AnnouncingSponsors() {
   return (
     <section className="eventStart" id="sponsor">
-      <p class="event-heading">SPONSORS</p>
+      <p class="event-heading" style={{marginTop:"60px"}}>Education Partners</p>
       <div className="logos_wrap">
-        <img src={logo1} className="logo_sponsi"/>
-        <img src={logo2} className="logo_sponsi"/>
-        <img src={logo3} className="logo_sponsi"/>
-        <img src={logo4} className="logo_sponsi"/>
+        <img src={p13} className="logo_sponsi"/>
+        <img src={p14} className="logo_sponsi"/>
+        <img src={p15} className="logo_sponsi"/>
+        <img src={p16} className="logo_sponsi"/>
+      </div>
+      <p class="event-heading" style={{marginTop:"60px"}}>Hiring Partner</p>
+      <div className="logos_wrap">
+        <img src={p17} className="logo_sponsi"/>
+      </div>
+      <p class="event-heading" style={{marginTop:"60px"}}>Platform Partner</p>
+      <div className="logos_wrap">
+        <img src={p18} className="logo_sponsi"/>
+      </div>
+      <p class="event-heading" style={{marginTop:"60px"}}>Sticker Partner</p>
+      <div className="logos_wrap">
+        <img src={p19} className="logo_sponsi"/>
       </div>
       <p class="event-heading" style={{marginTop:"60px"}}>Outreach Partners</p>
       <div className="logos_wrap">
