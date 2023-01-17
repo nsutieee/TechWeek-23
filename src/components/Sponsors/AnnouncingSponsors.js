@@ -27,7 +27,7 @@ import p19 from "./stickeryou.webp"
 
 function AnnouncingSponsors() {
   return (
-    <section className="eventStart" id="sponsor">
+    <section className="eventStart">
       <p class="event-heading" style={{marginTop:"60px"}}>Education Partners</p>
       <div className="logos_wrap">
         <img src={p13} className="logo_sponsi"/>
