@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import Events from "../EventCard/events";
-//import Sponsors from '../Sponsors/Sponsors'
+import Sponsors from '../Sponsors/Sponsors';
 import { Fade } from "react-reveal";
-
 import styles from "../../App.module.css";
 import Home from "../LandingPage/Home";
 import Timeline from "../timeline/timeline";
@@ -74,6 +73,9 @@ function HomeScreen() {
 
       {/* <Timeline /> */}
 
+      <Fade up>
+        <Sponsors/>
+      </Fade>
       <Fade up>
         <AnnouncingSponsors />
       </Fade>
