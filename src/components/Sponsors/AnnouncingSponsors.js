@@ -18,6 +18,8 @@ import p10 from "./partners/ieeeciet.png"
 import p11 from "./partners/ieeeiiitd.png"
 import p12 from "./partners/bvpieee.png"
 
+
+
 function AnnouncingSponsors() {
   return (
     <section className="eventStart" id="sponsor">
