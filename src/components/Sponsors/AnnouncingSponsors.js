@@ -17,6 +17,10 @@ import p9 from "./partners/ieeeadgitm.png"
 import p10 from "./partners/ieeeciet.png"
 import p11 from "./partners/ieeeiiitd.png"
 import p12 from "./partners/bvpieee.png"
+import p20 from "./partners/iosdmait.png"
+
+
+
 import p13 from "./metvy.png"
 import p14 from "./youngskilled.png"
 import p15 from "./mentro.svg"
@@ -63,8 +67,8 @@ function AnnouncingSponsors() {
         <img src={p10} className="logo_sponsi"/>
         <img src={p11} className="logo_sponsi"/>
         <img src={p12} className="logo_sponsi"/>
-
-
+        <img src={p20} className="logo_sponsi"/>
+   
       </div>
 
     </section>
