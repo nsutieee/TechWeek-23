@@ -91,6 +91,9 @@
     justify-content: center;
     align-content: center;
 }
+.gold .logo-box{
+    height: 10vw;
+}
 .silver img{
     width: 8vw;
 }

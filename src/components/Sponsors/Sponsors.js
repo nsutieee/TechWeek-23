@@ -1,19 +1,21 @@
 import Plat from "./Plat";
 import Gold from "./Gold";
-import Silver from "./Silver";
+import Title from "./Title";
+import Associate from "./Associate";
 import './Sponsors.css';
 
 function Sponsors() {
     return (
-         <section class="sponsors">
+         <section class="sponsors" id="sponsor">
 
         <p class="sponsor-heading">
             OUR SPONSORS
         </p>
         <div class="column">
+            <Title/>
+            <Associate/>
             <Plat/>
             <Gold/>
-            <Silver/>
         </div>
         </section>
     );
