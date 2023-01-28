@@ -77,16 +77,16 @@ function Footer() {
           </h3>
           <ul>
             <li>
-              <a href='#about'>About</a>
+              <div>About</div>
             </li>
             <li>
-              <a href='#sponsor'>Sponsors</a>
+              <div>Sponsors</div>
             </li>
             <li>
-              <a href='#faq'>FAQs</a>
+              <div>FAQs</div>
             </li>
             <li>
-              <a href='#footer'>Contact</a>
+              <div>Contact</div>
             </li>
           </ul>
         </div>

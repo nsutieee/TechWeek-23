@@ -7,10 +7,21 @@
     --div-headingtext-font: 'Orbitron', sans-serif;
     --div-contenttext-font: 'Gugi', sans-serif;
 }
-
+.event_post{
+    height: 17em;
+}
 * {
     margin: 0;
     padding: 0;
+}
+.link_event{
+    background-color: cyan;
+    width: 120px;
+    margin: auto;
+    color: black;
+    padding: 10px;
+
+
 }
 
 

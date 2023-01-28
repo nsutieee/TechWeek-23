@@ -53,7 +53,7 @@ const Header = () => {
 
           <Countdown date={"2023-02-08"} />
           <a
-            href='https://discord.gg/PtmKS5ke'
+            href='https://discord.gg/KX52TkVMsW'
             target={"_blank"}
             className='discord_wrap'
             style={{ marginTop: "10px", width: "220px" }}
