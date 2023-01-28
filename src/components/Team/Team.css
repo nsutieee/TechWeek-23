@@ -13,6 +13,7 @@
 
 .ln_ic {
     margin: 10px;
+
 }
 
 
@@ -207,8 +208,4 @@
 .fa {
     height: 10px;
     padding: 4px 8px !important;
-}
-
-.hidden {
-    visibility: hidden;
 }

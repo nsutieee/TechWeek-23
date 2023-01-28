@@ -1,7 +1,6 @@
 import React from "react";
 import "./Team.css";
-import logo2 from "../../images/team/akshat.jpeg";
-import logo3 from "../../images/team/anshul (1).jpg";
+import logo3 from "../../images/team/Anshul.png";
 import logo4 from "../../images/team/arpit.jpg";
 import logo5 from "../../images/team/ayush.jpg";
 import logo6 from "../../images/team/chirag.jpg";
@@ -9,7 +8,6 @@ import logo7 from "../../images/team/pranav.jpeg";
 import logo8 from "../../images/team/prerna.jpg";
 import logo9 from "../../images/team/shubham.jpg";
 import logo10 from "../../images/team/sneha.JPG";
-import logo11 from "../../images/team/ujjawal.jpg";
 import logo1 from "../../images/team/Vidit.jpeg";
 import logo12 from "../../images/team/Yajur.jpeg";
 import logo13 from "../../images/team/ritik.jpeg";
@@ -68,7 +66,7 @@ export default function Team() {
           title='PR Head'
           ig={"https://www.instagram.com/wiz_anshul/"}
           ln={"https://www.linkedin.com/in/anshuly777/"}
-          // className={"hidden"}
+          className={"hidden"}
         />
         <Honecombcell
           img={logo8}
@@ -87,7 +85,7 @@ export default function Team() {
           title='Tech Head'
           ig={"https://www.instagram.com/ayushtenguria/"}
           ln={"https://www.linkedin.com/in/ayush-sharma-800853120/"}
-          // className={"hidden"}
+          className={"hidden"}
         />
         <Honecombcell
           img={logo1}
